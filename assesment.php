@@ -16,16 +16,11 @@
         <input type="radio" value="Pani Puri "  name="food">Pani Puri<br>
         <input type="radio" value="Noodles"  name="food">Noodles<br>
         <input type="radio" value="Pasta"  name="food">Pasta<br>
-        <input type="submit">
-        
+        <input type="submit">    
     </form>
-    
-    <?php
-    if(!empty($_POST))
-    { ?>
- <h3><?php   echo "Good " . $greeting." ".$username.". Your Favourite Food is  ".$favourite; 
- ?></h3>
-  <?php } ?>
+     <?php  if(!empty($_POST)){   ?>
+ <h3> <?php   echo "Good " . $greeting." ".$username.". Your Favourite Food is  ".$favourite; ?>  </h3>
+  <?php   }   ?>
 </div>
 </body>
 </html>
